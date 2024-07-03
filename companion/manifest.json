@@ -1,6 +1,6 @@
 {
-  "id": "novastar-MxReal3",
-  "name": "novastar-MxReal3",
+  "id": "novastar-mxreal3",
+  "name": "novastar-mxreal3",
   "shortname": "MxReal 3",
   "description": "Companion module for Novastar MxReal 3 Products",
   "version": "1.0.0",
@@ -10,7 +10,7 @@
   "maintainers": [
     {
       "name": "NovaStar",
-      "email": ""
+      "email": "software@novastar.tech"
     }
   ],
   "runtime": {

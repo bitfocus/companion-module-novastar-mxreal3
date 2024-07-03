@@ -1,14 +1,14 @@
 /**
- * XR UDP 端口号
+ * XR UDP Port
  */
 const serverPort = 23334;
 /**
- * node 客户端 UDP 端口号
+ * node UDP Port
  */
 const clientPort = 23335;
 
 /**
- * 协议号
+ * tag
  */
 const TagCodes = {
   request: 98,
