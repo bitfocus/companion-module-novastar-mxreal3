@@ -78,13 +78,13 @@ class ModuleInstance extends InstanceBase {
 
         this.log('debug', `initUDP-code: ${res.tag}`);
         if (res.tag === TagCodes.response) {
-          this.log('debug', `响应tag: ${res.tag}`);
+          this.log('debug', `res-tag: ${res.tag}`);
           this.updateStatus(InstanceStatus.Ok);
           this.lastStatus = 1;
           return;
         } else {
-          console.log(`响应tag: ${res.tag}`);
-          this.log('debug', `响应tag: ${res.tag}`);
+          console.log(`res-tag: ${res.tag}`);
+          this.log('debug', `res-tag: ${res.tag}`);
           return;
         }
       });
