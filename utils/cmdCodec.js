@@ -32,7 +32,7 @@ const encodeControlProtocol = (data) => {
   const dataLen = data.dataLen ?? 0;
   const PROTOCOL_HEAD = [0xcc, 0x55, 0xcc, 0x55];
   const PACKET_TYPE = [0x01, 0x00];
-  const PROTOCOL_VERSION = [0x00, 0x01];
+  const PROTOCOL_VERSION = [0x30, 0x02];
   const SEQUENCE = [0x02, 0x00];
   const HEAD = [
     ...PROTOCOL_HEAD,
